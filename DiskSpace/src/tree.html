@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <style>
+        .logo.vanilla:hover {
+        filter: drop-shadow(0 0 2em #ffe21c);
+      }
+      #sd{
+        color: orange;
+      }
+    </style>
+</head>
+<body>
+    <h1> Tree-like Folder Structure </h1>
+    <a href="index.html">
+        <img src = "./home.png" class = "logo vanilla" alt = "Home" id = "home2"/>
+  </a>
+    <input id="input-path" type = "text" placeholder="Enter A Path" style="margin: 5% 35% auto 35%;">
+    <div id = "tree"> </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <script src = "tree.js" > </script>
+</body>
+</head>
+</html>

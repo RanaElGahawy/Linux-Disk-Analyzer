@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "text": "abdelaziz",
+    "children": [{
+      "id": 2,
+      "text": "manar",
+      "children": []     }
+    ]
+}

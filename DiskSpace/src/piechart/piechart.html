@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<style>
+html {
+  font-family: Century Gothic, Arial, Helvetica;
+  font-size: 1em;
+}
+body {
+  padding: 10px;
+}
+#chart {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+}
+#chart .chart-legend {
+  text-align: center;
+}
+.logo.vanilla:hover {
+        filter: drop-shadow(0 0 2em #ffe21c);
+      }
+</style>
+<head>
+  <link rel="stylesheet" href="../style.css" />
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+</head>
+<body>
+  <h1> Pie Chart Representation </h1>
+  <a href="../index.html">
+    <figure>
+      <img src = "../home.png" class = "logo vanilla" alt = "Home" id = "home"/>
+  </figure>
+  </a>
+  <div class = "row1">>
+  <input id="input-path" type = "text" placeholder="Enter A Path" >
+  </div>
+  <div id="chart"></div>
+</body>
+</html>
